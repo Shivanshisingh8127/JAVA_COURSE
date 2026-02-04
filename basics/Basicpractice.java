@@ -1,6 +1,6 @@
 //question1 program of input 3 numbers and output average of 3 numbers
 import java.util.*;
-public class basicpractice {
+public class Basicpractice {
     public static void main(String args[]) {
         Scanner sc= new Scanner(System.in);
         int num1= sc.nextInt();

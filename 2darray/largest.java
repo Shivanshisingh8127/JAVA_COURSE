@@ -1,6 +1,6 @@
 //    finding largest and smallest nbr in a matrix
 import java.util.*;
-public class largest{
+public class Largest{
     public static int  largest(int matrix[][]){
         int largest=Integer.MIN_VALUE;
         int smallest=Integer.MAX_VALUE;   
