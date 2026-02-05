@@ -15,7 +15,7 @@ public class Duplicatearray{
         }
     }
     public static void main(String args[]){
-        int[] a={3,4,3,2,2,1,5,5};
+        int[] a={3,4,3,2,2,1,5};
         duplicate(a);
     }
 }
@@ -29,11 +29,14 @@ public class Duplicatearray{
         System.out.print("duplicate no=");
         Set<Integer> s=new HashSet<>();
         for(int no:a){
-            if(s.add(no)==false){
+            s.add(no)
+        }
+        for(int  no:s){    
                 System.out.print(no +",");
             }
         }
     }
+    
     public static void main(String args[]){
         int[] a={3,4,5,3,2,2,2,1};
         setInterface(a);

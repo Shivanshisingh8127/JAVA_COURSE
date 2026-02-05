@@ -71,7 +71,6 @@ public class Common2d{
                 System.out.print(no+" ");
             }
         }
-
     }
 }
 
