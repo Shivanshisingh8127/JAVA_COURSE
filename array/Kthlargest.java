@@ -48,7 +48,7 @@ public class Kthlargest{
         }
         System.out.println("5th smallest element="+a[4]);
     }
-    public static void main(String args[]){
+        public static void main(String args[]){
         int[] a={5,8,12,7,6,21,4};
         kthSmallest(a);
     }

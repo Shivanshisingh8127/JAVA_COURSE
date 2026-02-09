@@ -3,6 +3,7 @@
 Arrays.sort(arr)
 0(n logn)
 Arrays.sort(arr, si,ei)   // ending arrays index will be greater than what we want to sort up
+*/
 
 import java.util.Arrays;
 public class inbuiltsort{
@@ -18,7 +19,7 @@ public class inbuiltsort{
         printarray(arr);
     }
 } 
-*/
+
 
 // Inbuilt sorting in reverse order
 /* syntax

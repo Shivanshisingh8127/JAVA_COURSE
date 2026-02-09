@@ -2,7 +2,8 @@
 /* 1. constructor have the same name as class
 2. constructor dont have return type not even void
 3. constructor are only called only once, at object creation
-4. memory allocations happen when constructor is called
+4. memory allocations happen when constructor is called\
+5. constructor is used to initialize objects 
 */
 public class Constructor{
     public static void main(String args[]){
@@ -33,7 +34,9 @@ class Student{
 }
 
 /*   Types of constructor
-// 1. non parameterized  2. parameterized  3.  copy constructor
+ 1. default constructor= compiler automatically creates constructor  with no arguements only when user didnt create any constructor
+2. non-parameterized (user defined)
+3. parameterized (user defined)
 */
 
 //   Constructor overloading= when objects decides  which particular consructor is called for the object that is called construcor overloading.

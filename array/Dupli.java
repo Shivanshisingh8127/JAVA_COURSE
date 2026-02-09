@@ -1,5 +1,4 @@
 //   Program to find duplicate element from an array
-
 import java.util.*;
 public class Dupli {
     public static void main(String[] args) {
@@ -7,7 +6,7 @@ public class Dupli {
         int n = a.length; 
         int k=0;
         System.out.println("all duplicate elements in an array");
-        for (int i = 0; i < n; i++) {   // outer loop      
+        for (int i = 0; i < n; i++) {      
             // Check if element appeared before
             for ( k = 0; k < i; k++) {
                 if (a[i] == a[k]) {
@@ -32,3 +31,7 @@ public class Dupli {
         }
     }
 }
+
+
+
+

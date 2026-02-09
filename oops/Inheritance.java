@@ -1,11 +1,13 @@
 // Inheritance= inheritnce is when properties and methods of the base class are passed on to a derived class
+// inheritence tells IS-A relationship
 public class Inheritance{
     public static void main(String args[]){
-        Fish shark=new Fish();
+        Fish shark=new Fish(4 , "blue");
          shark.eat();
          shark.swim();
-         shark.fins=4;
-         System.out.println(shark.fins);
+         shark.breathe();
+
+        
     }
 }
 //  Base class
@@ -17,7 +19,7 @@ class Animal{
     void breathe(){
          System.out.println("breathes"); 
     }
-    Animal(){                                        // constructoe
+    Animal(){// constructor
         System.out.println("base class constructor");
     }
 }
@@ -27,10 +29,14 @@ class Fish extends Animal{
     void swim(){
         System.out.println("swim in water");
     }
-    Fish(){
-        System.out.println("derived constructor");
+    Fish(int fins, String Color){
+        this.fins=fins;
+        this.Color=Color;
+        System.out.println("derived constructor "+fins +" " +Color);
     }
 }
 
-// types of inheritance
-//  1. single level inh 2. multi level inh 3. hierarchial inh  4. hybrid inh
+/* types of inheritance
+//  1. single level inh 2. multi level inh 3. hierarchial inh  4. hybrid inh 5. Multiple inheritance
+ advantage of inh= code reusability, method overriding
+ */

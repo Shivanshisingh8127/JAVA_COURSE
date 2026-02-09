@@ -1,7 +1,9 @@
-public class Multilevelinheritance{
+public class MultilevelInheritance{
     public static void main(String args[]){
-        Dog tommy=new Dog();
+        Dog tommy=new Dog("black" , "hawa",4);
             tommy.breathe();
+            tommy.eat();
+            tommy.bark();
             tommy.legs=4;
             System.out.println("dog has " +tommy.legs  +" " +"legs");
         
@@ -28,7 +30,10 @@ class Mammal extends Animal{
 }
 class Dog extends Mammal{
     String breed;
-    Dog(){
-         System.out.println("derive 2 class cons");
+    Dog(String Color,String breed, int legs){
+         System.out.println("derive 2 class cons " +Color +"," +breed +"," +legs);
+    }
+    void bark(){
+        System.out.println("dog barks");
     }
 }

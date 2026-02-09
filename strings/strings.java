@@ -1,6 +1,6 @@
 //      String Mehtods
 import java.util.*;
-public class strings {
+public class Strings {
     public static void main(String args[]) {
         Scanner sc= new Scanner(System.in);
        
@@ -44,4 +44,27 @@ public class strings {
         //  Escape sequence characters=  \n= new line, \\=backslash, \'= single quote, \" = double quote...... etc
         System.out.println("my name is \n shivanshi singh");    //insert characters in the string*/
     }
+    
+    public class Strings  {
+    public static void main(String args[]) {
+        String a= "Shiva shi singh";
+        a= a.trim();
+        System.out.println(a);
+        // replacement
+        a= a.replace(" ", "_");
+        System.out.println(a);
+        String letter= "Dear <|name|>, Thanks a lot";
+        letter= letter.replace("<|name|>", "Shivanshi");
+        System.out.println(letter);
+        //  detect doouble and triple spaces
+        String p= "my name  double and trple space";
+        System.out.println(p.indexOf("  "));
+        System.out.println(p.indexOf("    "));
+        //  escape sequence
+        String w= "dear harry,\n\t\" this java course is nice.\"\n\tthanks";
+        System.out.println(w);
+
+
+    }
+}
 }
