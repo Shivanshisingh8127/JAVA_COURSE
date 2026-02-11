@@ -1,6 +1,10 @@
-// Abstraction= hiding all the unnecessary details and showing only the important parts to the user
-// Abstract class= 1. cant create an object of abstract class 2. can have abstract/non-abstract methods 3. can have constructors
-// Abstract class
+/*
+ Abstraction= hiding all the unnecessary details and showing only the important parts to the user
+ Abstract class= 1. cant create an object of abstract class 2. can have abstract/non-abstract methods 3. can have constructors
+ 
+*/
+
+//  Abstract class
 public class Abstraction{
     public static void main(String args[]){
         Horse h=new Horse();
@@ -18,19 +22,19 @@ public class Abstraction{
 }
 abstract class Animal{      // abstract class does not have any object
     String color;
-    Animal(){
+    Animal(){   // constructor
         color="brown";
     }
-    void eat(){
+    void eat(){   //  non abstract methods
         System.out.println("animal eats");
     }
-    abstract void walk();    //  abstract function does not implement anything but gives an idea
+    abstract void walk();    // abstract function does not implement anything but gives an idea
 }
 class Horse extends Animal{
     void changecolor(){
         this.color=" dark black";
     }
-    void walk(){
+    void walk(){       // it is compulsory to create a body of abstract method in child class
         System.out.println("walks in 4 legs");
     }
 }

@@ -10,7 +10,30 @@ Constructor    yes        yes        yes      yes
 Method         yes       yes        yes      yes
 Field          yes         yes         yes      yes
  
-//ENCAPSULATION
-//  Encasulation is defined as the wrapping up of the data and methos under a single entity.it also implements the data hiding
-// this single entity is a class where we wrapp up the data and methods and data hiding is done by using access specifire
+/*ENCAPSULATION
+Encasulation is defined as the wrapping up of the data and methos under a single entity.it also implements the data hiding
+this single entity is a class where we wrapp up the data and methods and data hiding is done by using access modifier
+Steps to achieve encapsulation
+1. declare the variables of a class as private
+2. provide public setter and getter methods to modify and view the variables values respectively
+
+*/
+class Employee{
+    private int empid;   // this is data hiding
+    public void setEmpid(int eid){    // it is used to view, modify and initialize the data
+        empid=eid;
+    }
+    public int getEmpid(){  // to display things
+        return empid;
+    }
+
+public static void main(String args[]){
+    Employee e=new Employee();
+    e.setEmpid(101);
+    System.out.println(e.getEmpid());
+  }
+}
+
+
+
 

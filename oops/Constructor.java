@@ -20,7 +20,7 @@ class Student{
     Student(){        // non parameterized
        System.out.println("constuctor is called in main function");
     }
-    Student(String name){       // parameterized
+    Student(String name){  // parameterized
     this.name=name;
     System.out.println("name constructor="+name);
    }

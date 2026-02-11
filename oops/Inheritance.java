@@ -40,3 +40,8 @@ class Fish extends Animal{
 //  1. single level inh 2. multi level inh 3. hierarchial inh  4. hybrid inh 5. Multiple inheritance
  advantage of inh= code reusability, method overriding
  */
+
+
+/*  Types of relationships between classes
+1. Inheritance (IS-A)
+2. Association (HAS-A)  i) Aggregation(weak bonding)  ii) Composition(strong bonding)

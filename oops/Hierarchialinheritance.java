@@ -1,6 +1,8 @@
-public class Hierarchialinheritance{
+
+public class HierarchialInheritance{
     public static void main(String args[]){
-        Bird b=new Bird();
+        Bird b=new Bird("purple");
+       
         b.fly();
         b.eat();
         
@@ -22,6 +24,10 @@ class Mammal extends Animal{
     }
 }
 class Bird extends Animal{
+    Bird(String Color){
+        this.Color=Color;
+       System.out.println(Color);
+    }
     void fly(){
         System.out.println("fly in sky");
     }
