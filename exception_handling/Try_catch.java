@@ -12,7 +12,7 @@ try{
   // handling code
   }
 */
-/*
+
 class Test{
     public static void main(String args[]){
         try{
@@ -82,7 +82,7 @@ e.printStackTrace();= print everything(exception name, description,stack trace)
 System.out.println(e);- print everything except stack trace
 System.out.println(e.toString()); - print everything except stack trace
 System.out.println(e.getMessage());-print only description 
-
+*/
 
 
 class Test{
