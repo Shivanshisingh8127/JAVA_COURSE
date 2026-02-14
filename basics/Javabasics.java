@@ -1,8 +1,12 @@
+/* java is a high level programming language 
+java is a platform bcoz it has its own runtime environment i.e. jvm 
+*/
+
 //boilerplate code
 //1ST CODE  output in java
 public class Javabasics{
     public static void main(String args[]) {
-        // output in java
+//output in java
         System.out.println("i am good");  // output in java print, println, \n
         System.out.println("i am brave");//line ka space   
         System.out.print("you should be good\n");
@@ -46,3 +50,18 @@ public class Javabasics {
 
     }
 }
+
+/* 
+JDK-development tools+ jre
+jdk contains tools needed to develop the java programs, and jre to run the programs.
+jdk is mainly targeted for java development i.e. you can create a  java file(with the help of java packages), compile  a
+java file and run a java file.
+
+JRE- jvm + java packages classes+runtime libraries
+actually jvm runs the program, and it uses the class libraries, and otjer supporting iles provided in JRE.
+if you wannna run any java program , you need to have JRE installed in the system.
+
+JVM- JVM is an abstract machine. It is a specification that provides runtime environment
+in which java bytecode can be executed.
+jvm performs following tasks
+loads code, veriies code, executes code, provides runtime environment libraries
