@@ -12,7 +12,7 @@ try{
   // handling code
   }
 */
-
+/*
 class Test{
     public static void main(String args[]){
         try{
@@ -82,7 +82,7 @@ e.printStackTrace();= print everything(exception name, description,stack trace)
 System.out.println(e);- print everything except stack trace
 System.out.println(e.toString()); - print everything except stack trace
 System.out.println(e.getMessage());-print only description 
-*/
+
 
 
 class Test{
@@ -101,3 +101,49 @@ class Test{
         System.out.println("here program is executed");
     }
 }
+
+
+
+/* we can use multiple catch blocks with one try block but we can only use single finally block with one try block not multiple.
+1.try{}
+catch(exceptio){} - phle block me parent class aa gyi to next catch block nhi ayega
+
+2. try{}
+catch(arith exce){}
+catch(filenot found){}-   child class ke sath multiple catch block ho skte h
+
+3. try block ke andr bhi try catch block aa skta h pr last me catch block ana chahhiye
+try{
+try{
+}
+catch(){
+}
+}
+catch(){}
+
+4. catch block ke andr try catch block aa skta h
+5. without catch block we can use finally block with try block
+6. we can use try catch block inside finally block
+7. we cant use only one block alone whether it is try,catch or finally block
+*/
+
+
+class Test{
+    public static void main(String args[]){
+         Test t=new Test();
+         try{
+         t.divide();   //main methodm me bhi handle kr skte h but js method me ho exception vhi handle kre to jyda acha
+         }
+         catch(ArithmeticException e){
+            e.printStackTrace();
+            System.out.println("hello");
+
+         }
+    }
+    void divide(){
+        int a=100,b=0,c;
+        c=a/b;
+        System.out.println(c);
+    }
+}
+
