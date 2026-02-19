@@ -36,9 +36,9 @@ class Test{
         System.out.println("1");
         try{
          System.out.println("2");
-     int a=100, b=0;  // risky code
+        int a=100, b=0; // risky code
      System.out.println("3");
-     int c=a/b;   // if it found any exception in a line then from this line it will not excute further try block codeand directly jump into catch block
+     int c=a/b; // if it found any exception in a line then from this line it will not excute further try block codeand directly jump into catch block
      System.out.println("4");
      System.out.println(c);
      System.out.println("5");
@@ -89,7 +89,7 @@ class Test{
     public static void main(String args[]){
         try{      
      int a=100, b=0;  // risky code 
-     int c=a/b;   // if it found any exception in a line then from this line it will not excute further try block codeand directly jump into catch block 
+     int c=a/b;  // if it found any exception in a line then from this line it will not excute further try block codeand directly jump into catch block 
      System.out.println(c);
         }
         catch(ArithmeticException e){ // here we can write actual exception or if we don't know it we simply write exception        
@@ -124,7 +124,7 @@ catch(){}
 4. catch block ke andr try catch block aa skta h
 5. without catch block we can use finally block with try block
 6. we can use try catch block inside finally block
-7. we cant use only one block alone whether it is try,catch or finally block
+7. we can't use only one block alone whether it is try,catch or finally block
 */
 
 
@@ -132,12 +132,11 @@ class Test{
     public static void main(String args[]){
          Test t=new Test();
          try{
-         t.divide();   //main methodm me bhi handle kr skte h but js method me ho exception vhi handle kre to jyda acha
+         t.divide();   //main method me bhi handle kr skte h but jis method me ho exception vhi handle kre to jyda acha
          }
          catch(ArithmeticException e){
             e.printStackTrace();
             System.out.println("hello");
-
          }
     }
     void divide(){

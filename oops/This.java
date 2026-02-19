@@ -1,4 +1,4 @@
-/*
+
 public class This{
     public static void main(String args[]){
         Test t=new Test();
@@ -15,7 +15,7 @@ class Test{
         System.out.println(i);
     }
 }
-*/
+
 /*
 Uses of this keyword
 1. this keyword refers to the instance variable of current class
@@ -32,8 +32,7 @@ Uses of this keyword
 
 public class This{
     public static void main(String args[]){
-        Test t=new Test();
-        
+        Test t=new Test();    
         t.show();
     }
 }
@@ -43,7 +42,7 @@ class Test{
         System.out.println("hello");
     }
     void show(){
-        display();  // if we dont use this keyword compiler automatically adds this keyword while invokin method
+        display();  // if we dont use this keyword compiler automatically adds this keyword while invoking method
     }
 }
 
@@ -109,7 +108,7 @@ class Test{
     }
 }
 
-
+*/
 
 
     

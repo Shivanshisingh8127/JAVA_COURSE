@@ -4,7 +4,7 @@ static keyword is used with variable(class level)(local variable= nhi ), methods
 static is used for memory management
 */
 
-/*
+
 // static variables
 //  1.
 public class Static{

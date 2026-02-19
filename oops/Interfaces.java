@@ -3,8 +3,6 @@
  4. Variables in the interface are final, public and static
  8th version= default and static concrete methods can be created
  9th version = private concrete methods can be created
-
-
 */
 
 public class Interfaces{
@@ -20,13 +18,13 @@ public class Interfaces{
 }
 
 interface Chessplayer{
-    void moves();   //  by default compiler makes this method public and abstract
+    void moves();//  by default compiler makes this method public and abstract
 }
 interface I2{
     void display();
 }
 class Queen implements Chessplayer , I2{
-    public void moves(){   // method over riding ho rhi isliye child class ka modifier bda hone chahiye parent class se
+    public void moves(){// method over riding ho rhi isliye child class ka modifier bda hone chahiye parent class se
         System.out.println("up, down, left, right, diagonal in all 4 directions");
     }
     public void display(){

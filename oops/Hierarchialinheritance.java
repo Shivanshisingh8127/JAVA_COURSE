@@ -2,10 +2,8 @@
 public class HierarchialInheritance{
     public static void main(String args[]){
         Bird b=new Bird("purple");
-       
         b.fly();
-        b.eat();
-        
+        b.eat();     
     }
 }
 class Animal{

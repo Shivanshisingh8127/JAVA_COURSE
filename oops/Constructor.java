@@ -34,7 +34,7 @@ class Student{
 }
 
 /*   Types of constructor
- 1. default constructor= compiler automatically creates constructor  with no arguements only when user didnt create any constructor
+ 1. default constructor= compiler automatically creates constructor  with no arguements only when user we don't create any constructor
 2. non-parameterized (user defined)
 3. parameterized (user defined)
 */

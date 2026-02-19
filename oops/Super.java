@@ -16,7 +16,7 @@ class Animal{
 }
 class Horse extends Animal{
     Horse(){
-        super();      // it is inbuilt if we dont write it
+        super();// it is inbuilt if we dont write it
         System.out.println("horse is called");
     }
 }

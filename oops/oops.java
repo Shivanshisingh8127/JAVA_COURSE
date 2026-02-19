@@ -2,7 +2,7 @@
  OBJECTS= 1.objects is an instance of class and occupies mempory 
  2. entities in the real world like animal ,pen,watch,chair etc...
  3. objects consist of = 1. identity= name 2. attributes = color, breed 3. behaviors= run, eats
- 4. methods to create objects= new keyword, new Instance()methos, clone(), deserialization, factory method
+ 4. methods to create objects= new keyword, new Instance()method, clone(), deserialization, factory method
 syntax to create an object=
 Animal buzo= new Animal();
 
@@ -11,12 +11,11 @@ Animal buzo= new Animal();
  class does not occupy memory
  class syntax = access modifier class classname{
                                                }
-  OOPS = object oriented programming systems
+1. OOPS = object oriented programming systems
+2.OOPS is a programming method where we create objects that contain data and functions together, just like real-world things.
 oops is a programming paradigm
 6 main pillars of oops are=
 class, objects& methods, inheritance, polymorphism, encapsulation, abstraction
-
-
 */
 
 
@@ -72,7 +71,6 @@ class Animal{
         Animal buzo= new Animal();
         buzo.intObj("red" ,6);
         buzo.display();     
-
     }
 }
 

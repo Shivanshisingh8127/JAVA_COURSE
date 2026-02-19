@@ -1,4 +1,4 @@
-/*  
+/*  Polymorphism allows the same function or operator to behave differently depending on the object.
 Types of polymorphism
 1. compile time polymorphism= method overloading(static)(compiler handles)
 2. run time polymorphism= method overriding(dynamic)(JVM handles)

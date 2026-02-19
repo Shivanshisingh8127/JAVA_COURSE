@@ -45,3 +45,4 @@ class Fish extends Animal{
 /*  Types of relationships between classes
 1. Inheritance (IS-A)
 2. Association (HAS-A)  i) Aggregation(weak bonding)  ii) Composition(strong bonding)
+*/

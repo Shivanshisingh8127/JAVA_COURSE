@@ -20,7 +20,7 @@ Steps to achieve encapsulation
 */
 class Employee{
     private int empid;   // this is data hiding
-    public void setEmpid(int eid){    // it is used to view, modify and initialize the data
+    public void setEmpid(int eid){ // it is used to view, modify and initialize the data
         empid=eid;
     }
     public int getEmpid(){  // to display things

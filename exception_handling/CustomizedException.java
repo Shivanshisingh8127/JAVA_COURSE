@@ -3,7 +3,7 @@ object-throwable- 1. exception - a. CompiletimeException b. RunTimeException
                   2. error 
 
 
-// if we are making our customized exception class of checked then we have to use try
+If we are making our customized exception class of checked then we have to use try
 catch method or throws keyword otherwise it will not compile
 */
 
@@ -29,7 +29,7 @@ class Vote{
 class UnderAgeException extends Exception{
     UnderAgeException(){
         super("you are underage");
-// super is used to pass the description to the default handler exception
+// super keyword is used to pass the description to the default handler exception
     }
     UnderAgeException(String msg){
         super(msg); // if we want to take a description from the user

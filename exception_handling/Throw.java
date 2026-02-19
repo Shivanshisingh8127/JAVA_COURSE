@@ -1,5 +1,5 @@
 /* throw- it is used to create an exception object manually i.e. normally 
-method creates an exception object as exception occurs in that method but when we use throw
+method creates an exception object as exception occurs in that method but when we use throw,
 programmer is responsible to create an exception object
 syntax of throw keyword- throw new ExceptionClassName("description")
 */
