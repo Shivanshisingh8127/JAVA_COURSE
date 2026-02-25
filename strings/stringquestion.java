@@ -1,7 +1,7 @@
 // ques 1 program to count vowel and consonant in a string
 
 import java.util.*;
-public class stringquestion {
+public class Stringquestion {
     public static int count(String st){
         int countvowel=0;
         int countconsonant=0;
@@ -34,7 +34,7 @@ public class stringquestion {
 
 // ques 2  program to convert string to uppercase and lower case
 import java.util.*;
-public class stringquestion {
+public class Stringquestion {
     public static String cases(String st){
         StringBuilder sb=new StringBuilder("");
         char ch=Character.toUpperCase(st.charAt(0));
@@ -60,7 +60,7 @@ public class stringquestion {
 
 // ques 3 program to reverse a string
 import java.util.*;
-public class stringquestion {
+public class Stringquestion {
     public static String reverse(String st){
         StringBuilder sb=new StringBuilder("");
         for(int i=st.length()-1; i>=0; i--){
